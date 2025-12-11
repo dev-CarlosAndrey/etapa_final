@@ -1,4 +1,7 @@
--- DDL para PostgreSQL
+-- Comando pra criar o banco de dados 
+CREATE DATABASE biblioteca;
+
+-- DDL para PostgreSQL - Comandos para criação das tabelas
 
 CREATE TABLE Aluno (
     id_aluno SERIAL PRIMARY KEY,
